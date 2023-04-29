@@ -16,27 +16,41 @@
 
 /* Theme colors */
 :root {
-	--c0: #FFFFFF;
-  --c1: #FFF0E5;
-  --c2: #FFD4B8;
-  --c3: #FFB98A;
-  --c4: #FF9D5C;
-  --c5: #FF822E;
-  --c6: #ff6600;
-  --c7: #CC5200;
-  --c8: #993D00;
-  --c9: #662900;
-  --c10: #331400;
-	--g10: #4c4c4c;
 
-	--monero-logo-color-top: var(--c6);
+	--monero-orange-0: #FFFFFF;
+  --monero-orange-1: #FFF0E5;
+  --monero-orange-2: #FFD4B8;
+  --monero-orange-3: #FFB98A;
+  --monero-orange-4: #FF9D5C;
+  --monero-orange-5: #FF822E;
+  --monero-orange-6: #ff6600;
+  --monero-orange-7: #CC5200;
+  --monero-orange-8: #993D00;
+  --monero-orange-9: #662900;
+  --monero-orange-10: #331400;
+	--monero-gray-4c: #4c4c4c;
+
+	--c0: var(--monero-orange-9);
+  --c1: var(--monero-orange-10);
+  --c2: var(--monero-orange-8);
+  --c3: var(--monero-orange-7);
+  --c4: var(--monero-orange-6);
+  --c5: var(--monero-orange-5);
+  --c6: var(--monero-orange-4);
+  --c7: var(--monero-orange-3);
+  --c8: var(--monero-orange-2);
+  --c9: var(--monero-orange-1);
+  --c10: var(--monero-orange-0);
+	--g10: var(--monero-gray-4c);
+
+	--monero-logo-color-top: var(--c4);
 	--monero-logo-color-bottom: var(--g10);
-	--background-color: var(--c1);
-	--nav-color: var(--c1);
-	--nav-color-link: var(--c1);
-	--nav-color-link-active:var(--c2);
-	--nav-color-link-visited: var(--c3);
-	--text-color: var(--c10);
+	--background-color: var(--c10);
+	--nav-color: var(--c2);
+	--nav-color-link: var(--c2);
+	--nav-color-link-active:var(--c3);
+	--nav-color-link-visited: var(--c4);
+	--text-color: var(--c1);
 	--text-color-link: var(--c10);
 	--text-color-link-active:var(--c8);
 	--text-color-link-visited: var(--c9);
@@ -46,6 +60,19 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--c0: var(--monero-orange-0);
+  --c1: var(--monero-orange-1);
+  --c2: var(--monero-orange-2);
+  --c3: var(--monero-orange-3);
+  --c4: var(--monero-orange-4);
+  --c5: var(--monero-orange-5);
+  --c6: var(--monero-orange-6);
+  --c7: var(--monero-orange-7);
+  --c8: var(--monero-orange-8);
+  --c9: var(--monero-orange-9);
+  --c10: var(--monero-orange-10);
+	--g10: var(--monero-gray-4c);
+
 		--monero-logo-color-top: var(--c3);
 		--monero-logo-color-bottom: var(--c4);
 		--background-color: var(--c10);
@@ -268,23 +295,6 @@ footer {
 	height: 60px;
 	width: 60px;
 	transform: translateX(-50%);
-}
-
-/**
- * Styles for demo
- */
-html {
-  --c0: #FFFFFF;
-  --c1: #FFF0E5;
-  --c2: #FFD4B8;
-  --c3: #FFB98A;
-  --c4: #FF9D5C;
-  --c5: #FF822E;
-  --c6: #ff6600;
-  --c7: #CC5200;
-  --c8: #993D00;
-  --c9: #662900;
-  --c10: #331400;
 }
 		</style>
 

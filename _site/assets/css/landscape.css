@@ -44,20 +44,3 @@
 	width: 60px;
 	transform: translateX(-50%);
 }
-
-/**
- * Styles for demo
- */
-html {
-  --c0: #FFFFFF;
-  --c1: #FFF0E5;
-  --c2: #FFD4B8;
-  --c3: #FFB98A;
-  --c4: #FF9D5C;
-  --c5: #FF822E;
-  --c6: #ff6600;
-  --c7: #CC5200;
-  --c8: #993D00;
-  --c9: #662900;
-  --c10: #331400;
-}

@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./assets/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
-		"./assets/": "/",
+		"./assets/": "/assets/",
 	});
 
 	// Run Eleventy when these files change:

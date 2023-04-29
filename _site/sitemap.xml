@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-	
+
 	<url>
-		<loc>https://example.com/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
-	
+
 	<url>
-		<loc>https://example.com/gemeinschaft/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/gemeinschaft/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
-	
+
 	<url>
-		<loc>https://example.com/tauschen/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/tauschen/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
-	
+
 	<url>
-		<loc>https://example.com/mining/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/mining/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
-	
+
 	<url>
-		<loc>https://example.com/ressourcen/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/ressourcen/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
-	
+
 	<url>
-		<loc>https://example.com/wallets/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/wallets/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
-	
+
 	<url>
-		<loc>https://example.com/monero/</loc>
+		<loc>https://aschmidt1024.github.io/xmr-11ty/_site/monero/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
 </urlset>

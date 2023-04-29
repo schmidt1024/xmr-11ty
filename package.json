@@ -1,14 +1,17 @@
 {
-  "name": "xmr",
+  "name": "Monero Website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Die offizielle Website der deutschsprachigen Monero-Gemeinschaft",
   "main": "index.html",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:ASchmidt1024/xmr-11ty.git"
+  },
   "scripts": {
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve --quiet"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.0",

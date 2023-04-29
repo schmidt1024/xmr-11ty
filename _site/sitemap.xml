@@ -12,11 +12,6 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/kaufen-und-handeln/</loc>
-		<lastmod>2023-04-29</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/tauschen/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
@@ -32,7 +27,7 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/wallets-und-sicherheit/</loc>
+		<loc>https://example.com/wallets/</loc>
 		<lastmod>2023-04-29</lastmod>
 	</url>
 	

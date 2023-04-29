@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Kaufen und Handeln
-  order: 3
+  key: Wallets
+  order: 4
 ---
-# Kaufen und Handeln
+# Wallets und Sicherheit
 
 Lorem Ipsum dolor ...

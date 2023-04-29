@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Ressourcen und Werkzeuge
+  key: Ressourcen
   order: 7
 ---
 # Ressourcen und Werkzeuge

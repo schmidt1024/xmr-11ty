@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Was ist Monero?
+  key: Monero
   order: 2
 ---
 # Was ist Monero?

@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Wallets und Sicherheit
-  order: 4
+  key: Tauschen
+  order: 3
 ---
-# Wallets und Sicherheit
+# Tauschen
 
 Lorem Ipsum dolor ...

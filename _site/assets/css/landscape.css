@@ -35,6 +35,16 @@
   max-width: 100%;
 }
 
+.monero__logo {
+	position: absolute;
+	bottom: 42vh;
+	right: 25vw;
+	color: black;
+	height: 60px;
+	width: 60px;
+	transform: translateX(-50%);
+}
+
 /**
  * Styles for demo
  */

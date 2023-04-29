@@ -27,7 +27,10 @@
   --c8: #993D00;
   --c9: #662900;
   --c10: #331400;
+	--g10: #4c4c4c;
 
+	--monero-logo-color-top: var(--c6);
+	--monero-logo-color-bottom: var(--g10);
 	--background-color: var(--c1);
 	--nav-color: var(--c1);
 	--nav-color-link: var(--c1);
@@ -43,16 +46,17 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--text-color-link: var(--c5);
-		--text-color-link-active: var(--c4);
-		--text-color-link-visited: var(--c3);
-
+		--monero-logo-color-top: var(--c3);
+		--monero-logo-color-bottom: var(--c4);
 		--background-color: var(--c10);
 		--nav-color: var(--c10);
 		--nav-color-link: var(--c10);
 		--nav-color-link-active:var(--c8);
 		--nav-color-link-visited: var(--c9);
 		--text-color: var(--c1);
+		--text-color-link: var(--c5);
+		--text-color-link-active: var(--c4);
+		--text-color-link-visited: var(--c3);
 	}
 }
 
@@ -256,6 +260,16 @@ footer {
   max-width: 100%;
 }
 
+.monero__logo {
+	position: absolute;
+	bottom: 42vh;
+	right: 25vw;
+	color: black;
+	height: 60px;
+	width: 60px;
+	transform: translateX(-50%);
+}
+
 /**
  * Styles for demo
  */
@@ -281,6 +295,37 @@ html {
 
 		<header>
 			<div class="landscape" role="img" aria-label="Monotone illustration of a landscape. Trees are in the foreground, a loch and forest is in a valley and in the background a mountain range is visible.">
+
+				<!-- landscape layer 0 - monero sun -->
+				<div class="landscape__layer" style="--offset:0.98">
+					<div class="monero__logo">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6000 6000">
+							<g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,6000)"
+     id="g10">
+								<g
+       id="g12">
+									<g
+         clip-path="url(#clipPath18)"
+         id="g14">
+										<g
+           transform="translate(2249.9688,4467.3906)"
+           id="g20"><path
+             id="path22"
+             style="fill:var(--monero-logo-color-top);fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c -1224.422,0 -2217.391,-992.906 -2217.391,-2217.359 0,-244.75 39.672,-480.172 112.938,-700.391 h 663.156 v 1865.641 L 0,-2493.438 1441.313,-1052.109 V -2917.75 H 2104.5 c 73.281,220.219 112.953,455.641 112.953,700.391 C 2217.453,-992.906 1224.484,0 0,0"/></g>
+										<g
+           transform="translate(1918.5469,1642.5938)"
+           id="g24"><path
+             id="path26"
+             style="fill:var(--monero-logo-color-bottom);fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 0,0 -629,629.031 V -544.891 h -240.469 -240.437 -453.438 c 389.25,-638.609 1092.282,-1065.093 1894.735,-1065.093 802.437,0 1505.531,426.484 1894.75,1065.093 h -453.469 -430.063 -50.812 V 629.031 L 662.75,0 331.391,-331.359 0.031,0 Z"/></g>
+									</g>
+								</g>
+							</g>
+						</svg>
+					</div>
+				</div>
 
 				<!-- landscape layer 1 - clouds -->
 				<div class="landscape__layer" style="--offset:0.96">

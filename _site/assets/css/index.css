@@ -17,7 +17,10 @@
   --c8: #993D00;
   --c9: #662900;
   --c10: #331400;
+	--g10: #4c4c4c;
 
+	--monero-logo-color-top: var(--c6);
+	--monero-logo-color-bottom: var(--g10);
 	--background-color: var(--c1);
 	--nav-color: var(--c1);
 	--nav-color-link: var(--c1);
@@ -33,16 +36,17 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--text-color-link: var(--c5);
-		--text-color-link-active: var(--c4);
-		--text-color-link-visited: var(--c3);
-
+		--monero-logo-color-top: var(--c3);
+		--monero-logo-color-bottom: var(--c4);
 		--background-color: var(--c10);
 		--nav-color: var(--c10);
 		--nav-color-link: var(--c10);
 		--nav-color-link-active:var(--c8);
 		--nav-color-link-visited: var(--c9);
 		--text-color: var(--c1);
+		--text-color-link: var(--c5);
+		--text-color-link-active: var(--c4);
+		--text-color-link-visited: var(--c3);
 	}
 }
 

@@ -1,0 +1,30 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+numberOfLatestPostsToShow: 3
+---
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+{% if latestPostsCount === 1 %}<h1>Der letzte Beitrag</h1>{% endif %}
+{% if latestPostsCount !== 1 %}<h1>Die letzten {{ latestPostsCount }} Beitr&auml;ge</h1>{% endif %}
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 1 %}
+<p>{{ morePosts }} weitere Beitr&auml;ge <a href="/blog/">im Archiv</a></p>
+{% endif %}
+
+{# List every content page in the project #}
+{#
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+#}
